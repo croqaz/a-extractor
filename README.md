@@ -6,7 +6,7 @@
 This is a database of expressions used for extracting content from blogs and articles.
 
 The database format is [JSON5](http://json5.org), a strict subset of Javascript, that can be converted to normal JSON.
-The extraction expressions are Cheerio, very similar with jQuery.
+The extraction expressions are [Cheerio](https://cheerio.js.org), very similar with jQuery.
 The targeted informations are: **the title** of the article, **the author**, **the date** when the article was written, and of course, the article text, as clean as possible.
 
 This project is designed to be used with [Clean-Mark](https://github.com/croqaz/clean-mark) and the [Clean-Mark-GUI](https://github.com/croqaz/clean-mark-gui), but you can use it however you want.

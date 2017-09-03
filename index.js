@@ -11,12 +11,14 @@ const sources = JSON5.parse(fs.readFileSync(DB))
 module.exports = function findExtractor (link) {
   const u = url.parse(link)
   const p = `${u.host}${u.path}`
+
   return sources.find(c => {
-    if (c.domain) {
+    if (typeof c.domain === 'string') {
+      console.log((c.domain))
       if (new RegExp(c.domain).test(p))
         return c
-    } else if (c.domains) {
-      for (const d of c.domains) {
+    } else if (c.domain instanceof Array) {
+      for (const d of c.domain) {
         if (new RegExp(d).test(p))
           return c
       }

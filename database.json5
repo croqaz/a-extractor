@@ -1,11 +1,27 @@
 [
-{
-  domain: 'farnamstreetblog.com/\\d+',
-  content: 'div.entry-content'
-},
-{
-  domains: ['www.yahoo.com/news/'],
-  article: 'div[itemtype="http://schema.org/NewsArticle"]',
-  content: 'article[itemprop="articleBody"]'
-}
+  {
+    domain: "bossfeed.net/\\d+/",
+    article: "#content",
+    content: "div.article-content",
+    date: "time.published"
+  },
+  {
+    domain: "farnamstreetblog.com/\\d+/",
+    article: "article.hentry",
+    content: "div.entry-content"
+  },
+  {
+    author: ".content-inner span.author",
+    domain: "finesociety.ro/",
+    article: ".content-inner",
+    content: ".content-inner .standard_section",
+    date: ".content-inner div.date:first"
+  },
+  {
+    domain: [
+      "www.yahoo.com/news/"
+    ],
+    article: "div[itemtype=\"http://schema.org/NewsArticle\"]",
+    content: "article[itemprop=\"articleBody\"]"
+  }
 ]
