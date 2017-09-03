@@ -1,5 +1,7 @@
 {
-  "author": "Cristi Constantin",
+  "authors": [
+    "Cristi Constantin <cristi.constantin@live.com>"
+  ],
   "bugs": {
     "url": "https://github.com/croqaz/a-extractor/issues"
   },
@@ -7,6 +9,9 @@
     "json5": "0.x"
   },
   "description": "Article content extraction database",
+  "engines": {
+    "node": ">6.0.0"
+  },
   "homepage": "https://github.com/croqaz/a-extractor#readme",
   "keywords": [
     "text",

@@ -1,6 +1,11 @@
 [
 {
-  domain: 'farnamstreetblog.com\/\d+',
+  domain: 'farnamstreetblog.com/\\d+',
   content: 'div.entry-content'
+},
+{
+  domains: ['www.yahoo.com/news/'],
+  article: 'div[itemtype="http://schema.org/NewsArticle"]',
+  content: 'article[itemprop="articleBody"]'
 }
 ]
