@@ -1,0 +1,26 @@
+{
+  "author": "Cristi Constantin",
+  "bugs": {
+    "url": "https://github.com/croqaz/a-extractor/issues"
+  },
+  "dependencies": {
+    "json5": "0.x"
+  },
+  "description": "Article content extraction database",
+  "homepage": "https://github.com/croqaz/a-extractor#readme",
+  "keywords": [
+    "text",
+    "article",
+    "extraction"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "a-extractor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/croqaz/a-extractor.git"
+  },
+  "scripts": {
+  },
+  "version": "1.0.0"
+}

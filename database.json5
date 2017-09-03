@@ -1,0 +1,6 @@
+[
+{
+  domain: 'farnamstreetblog.com\/\d+',
+  content: 'div.entry-content'
+}
+]
