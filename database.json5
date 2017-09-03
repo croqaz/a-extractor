@@ -2,13 +2,13 @@
   {
     domain: "bossfeed.net/\\d+/",
     article: "#content",
-    content: "div.article-content",
+    content: ".article-content",
     date: "time.published"
   },
   {
     domain: "farnamstreetblog.com/\\d+/",
     article: "article.hentry",
-    content: "div.entry-content"
+    content: ".entry-content"
   },
   {
     author: ".content-inner span.author",
@@ -16,6 +16,13 @@
     article: ".content-inner",
     content: ".content-inner .standard_section",
     date: ".content-inner div.date:first"
+  },
+  {
+    domain: "info.localytics.com/blog/",
+    article: ".single-post__content-container",
+    content: ".single-post__content",
+    author: "strong.author-block__posted-by--large",
+    date: "h5.single-post__date"
   },
   {
     domain: [

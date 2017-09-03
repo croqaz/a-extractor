@@ -2,7 +2,7 @@
 const fs = require('fs')
 const JSON5 = require('json5')
 
-const DB = 'database.json5'
+const DB = `${__dirname}/database.json5`
 const sources = JSON5.parse(fs.readFileSync(DB))
 
 const comparator = (a, b) => {
