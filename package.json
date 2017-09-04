@@ -9,6 +9,10 @@
     "json5": "0.x"
   },
   "description": "Article content extraction database",
+  "devDependencies": {
+    "mocha": "3.x",
+    "should": "11.x"
+  },
   "engines": {
     "node": ">6.0.0"
   },
@@ -26,6 +30,7 @@
     "url": "git+https://github.com/croqaz/a-extractor.git"
   },
   "scripts": {
+    "test": "./node_modules/.bin/mocha $(find . -name './test/*.test.js')"
   },
   "version": "1.0.0"
 }

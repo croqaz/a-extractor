@@ -6,9 +6,14 @@
     date: "time.published"
   },
   {
-    domain: "farnamstreetblog.com/\\d+/",
-    article: "article.hentry",
-    content: ".entry-content"
+    domain: "money.cnn.com/\\d+/",
+    article: "main[role=main]",
+    content: "#storytext"
+  },
+  {
+    domain: "edition.cnn.com/\\d+/",
+    article: "div.l-container",
+    content: "div[itemprop=\"articleBody\"]"
   },
   {
     author: ".content-inner span.author",
@@ -18,6 +23,11 @@
     date: ".content-inner div.date:first"
   },
   {
+    domain: "farnamstreetblog.com/\\d+/",
+    article: "article.hentry",
+    content: ".entry-content"
+  },
+  {
     domain: "info.localytics.com/blog/",
     article: ".single-post__content-container",
     content: ".single-post__content",
@@ -25,9 +35,37 @@
     date: "h5.single-post__date"
   },
   {
-    domain: [
-      "www.yahoo.com/news/"
-    ],
+    domain: "www.dailymail.co.uk/",
+    article: "#js-article-text",
+    content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "www.foxnews.com/",
+    article: "article.story",
+    content: "div.article-body"
+  },
+  {
+    domain: "www.huffingtonpost.com/entry/",
+    article: "article.entry.component",
+    content: "div.entry__text"
+  },
+  {
+    domain: "www.nbcnews.com/",
+    article: "article.article_entry",
+    content: "div.article-body"
+  },
+  {
+    domain: "www.nytimes.com/\\d+/",
+    article: "main[role=main]",
+    content: "div.story-body"
+  },
+  {
+    domain: "www.washingtonpost.com/news/",
+    article: "#pb-root",
+    content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "www.yahoo.com/news/",
     article: "div[itemtype=\"http://schema.org/NewsArticle\"]",
     content: "article[itemprop=\"articleBody\"]"
   }
