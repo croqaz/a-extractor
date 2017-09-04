@@ -6,14 +6,14 @@
     date: "time.published"
   },
   {
-    domain: "money.cnn.com/\\d+/",
-    article: "main[role=main]",
-    content: "#storytext"
-  },
-  {
     domain: "edition.cnn.com/\\d+/",
     article: "div.l-container",
     content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "farnamstreetblog.com/\\d+/",
+    article: "article.hentry",
+    content: ".entry-content"
   },
   {
     author: ".content-inner span.author",
@@ -23,11 +23,6 @@
     date: ".content-inner div.date:first"
   },
   {
-    domain: "farnamstreetblog.com/\\d+/",
-    article: "article.hentry",
-    content: ".entry-content"
-  },
-  {
     domain: "info.localytics.com/blog/",
     article: ".single-post__content-container",
     content: ".single-post__content",
@@ -35,9 +30,19 @@
     date: "h5.single-post__date"
   },
   {
+    domain: "money.cnn.com/\\d+/",
+    article: "main[role=main]",
+    content: "#storytext"
+  },
+  {
     domain: "www.dailymail.co.uk/",
     article: "#js-article-text",
     content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "www.fastcompany.com/\\d+/",
+    article: "div.post__body",
+    content: "article.post__article"
   },
   {
     domain: "www.foxnews.com/",
