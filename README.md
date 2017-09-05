@@ -13,10 +13,13 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 22 domains available
+## 28 domains available
 
+* abcnews.go.com
 * articles.latimes.com
+* bbc.com
 * bossfeed.net
+* businessinsider.com
 * dailymail.co.uk
 * edition.cnn.com
 * express.co.uk
@@ -35,8 +38,11 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * pri.org
 * telegraph.co.uk
 * theguardian.com
+* usatoday.com
 * washingtonpost.com
+* wsj.com
 * yahoo.com
+* ziare.com
 
 </div>
 

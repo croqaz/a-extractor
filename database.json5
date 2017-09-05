@@ -1,14 +1,29 @@
 [
   {
+    domain: "abcnews.go.com/",
+    article: "#container",
+    content: "#container .article-copy"
+  },
+  {
     domain: "articles.latimes.com/\\d+",
     article: "#area-center-w-left",
     content: "#area-center-w-left .mod-articletext"
+  },
+  {
+    domain: "bbc.com/news/",
+    article: "div.story-body",
+    content: "div.story-body .story-body__inner"
   },
   {
     domain: "bossfeed.net/\\d+/",
     article: "#content",
     content: ".article-content",
     date: "time.published"
+  },
+  {
+    domain: "businessinsider.com/",
+    article: "#content",
+    content: "#content .post-content"
   },
   {
     domain: "dailymail.co.uk/",
@@ -52,7 +67,7 @@
   {
     domain: "huffingtonpost.com/entry/",
     article: "article.entry.component",
-    content: "div.entry__text"
+    content: "article.entry .entry__text"
   },
   {
     domain: "info.localytics.com/blog/",
@@ -71,12 +86,12 @@
   {
     domain: "latimes.com/\\S+",
     article: "article[itemtype=\"http://schema.org/Article\"],div.trb_ar_main",
-    content: "div[itemprop=\"articleBody\"]"
+    content: "article div[itemprop=\"articleBody\"]"
   },
   {
     domain: "merckmanuals.com/\\S+",
     article: "div.body",
-    content: "section.body"
+    content: "div.body section.body"
   },
   {
     domain: "money.cnn.com/\\d+/",
@@ -86,17 +101,18 @@
   {
     domain: "nbcnews.com/",
     article: "article.article_entry",
-    content: "div.article-body"
+    content: "article div.article-body"
   },
   {
     domain: "nytimes.com/\\d+/",
     article: "#story",
-    content: "div.story-body"
+    content: "#story .story-body"
   },
   {
     domain: "pri.org/\\S+/\\S+",
     article: "#main-content",
-    content: "article.node.node-story"
+    content: "#main-content article.node.node-story",
+    author: "#main-content .story__meta"
   },
   {
     domain: "telegraph.co.uk/",
@@ -109,13 +125,29 @@
     content: "h1[itemprop=\"headline\"],.content__standfirst,div[itemprop=\"articleBody\"]"
   },
   {
+    domain: "usatoday.com/",
+    article: "article.asset.story",
+    content: "article.story div[itemprop=\"articleBody\"]"
+  },
+  {
     domain: "washingtonpost.com/news/",
     article: "#pb-root",
     content: "div[itemprop=\"articleBody\"]"
   },
   {
+    domain: "wsj.com/(?:articles|experts)/",
+    article: "#article_sector",
+    content: "#article_sector .wsj-snippet-body",
+    date: "#article_sector time.timestamp"
+  },
+  {
     domain: "yahoo.com/news/",
     article: "div[itemtype=\"http://schema.org/NewsArticle\"]",
     content: "article[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "ziare.com/",
+    article: "#interior_left",
+    content: "#content_font_resizable"
   }
 ]
