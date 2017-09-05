@@ -13,22 +13,30 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 14 domains available
+## 22 domains available
 
+* articles.latimes.com
 * bossfeed.net
+* dailymail.co.uk
 * edition.cnn.com
+* express.co.uk
 * farnamstreetblog.com
+* fastcompany.com
 * finesociety.ro
+* foxnews.com
+* huffingtonpost.com
 * info.localytics.com
+* isgp-studies.com
+* latimes.com
+* merckmanuals.com
 * money.cnn.com
-* www.dailymail.co.uk
-* www.fastcompany.com
-* www.foxnews.com
-* www.huffingtonpost.com
-* www.nbcnews.com
-* www.nytimes.com
-* www.washingtonpost.com
-* www.yahoo.com
+* nbcnews.com
+* nytimes.com
+* pri.org
+* telegraph.co.uk
+* theguardian.com
+* washingtonpost.com
+* yahoo.com
 
 </div>
 

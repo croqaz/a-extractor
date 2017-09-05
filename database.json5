@@ -1,9 +1,19 @@
 [
   {
+    domain: "articles.latimes.com/\\d+",
+    article: "#area-center-w-left",
+    content: "#area-center-w-left .mod-articletext"
+  },
+  {
     domain: "bossfeed.net/\\d+/",
     article: "#content",
     content: ".article-content",
     date: "time.published"
+  },
+  {
+    domain: "dailymail.co.uk/",
+    article: "#js-article-text",
+    content: "div[itemprop=\"articleBody\"]"
   },
   {
     domain: "edition.cnn.com/\\d+/",
@@ -11,16 +21,38 @@
     content: "div[itemprop=\"articleBody\"]"
   },
   {
+    domain: "express.co.uk/\\S+",
+    article: "#singleArticle",
+    content: "div[data-type=\"article-body\"] section"
+  },
+  {
     domain: "farnamstreetblog.com/\\d+/",
     article: "article.hentry",
     content: ".entry-content"
+  },
+  {
+    domain: "fastcompany.com/\\d+/",
+    article: "div.post__body",
+    content: "article.post__article",
+    author: "cite.post__by",
+    date: ".eyebrow__item time"
   },
   {
     author: ".content-inner span.author",
     domain: "finesociety.ro/",
     article: ".content-inner",
     content: ".content-inner .standard_section",
-    date: ".content-inner div.date:first"
+    date: ".content-inner div.date"
+  },
+  {
+    domain: "foxnews.com/",
+    article: "article.story",
+    content: "div.article-body"
+  },
+  {
+    domain: "huffingtonpost.com/entry/",
+    article: "article.entry.component",
+    content: "div.entry__text"
   },
   {
     domain: "info.localytics.com/blog/",
@@ -30,47 +62,59 @@
     date: "h5.single-post__date"
   },
   {
+    domain: "isgp-studies.com/\\S+",
+    article: "#article_wrapper main",
+    content: "#article_body",
+    author: "#article_author_and_date",
+    date: "#article_author_and_date"
+  },
+  {
+    domain: "latimes.com/\\S+",
+    article: "article[itemtype=\"http://schema.org/Article\"],div.trb_ar_main",
+    content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "merckmanuals.com/\\S+",
+    article: "div.body",
+    content: "section.body"
+  },
+  {
     domain: "money.cnn.com/\\d+/",
     article: "main[role=main]",
     content: "#storytext"
   },
   {
-    domain: "www.dailymail.co.uk/",
-    article: "#js-article-text",
-    content: "div[itemprop=\"articleBody\"]"
-  },
-  {
-    domain: "www.fastcompany.com/\\d+/",
-    article: "div.post__body",
-    content: "article.post__article"
-  },
-  {
-    domain: "www.foxnews.com/",
-    article: "article.story",
-    content: "div.article-body"
-  },
-  {
-    domain: "www.huffingtonpost.com/entry/",
-    article: "article.entry.component",
-    content: "div.entry__text"
-  },
-  {
-    domain: "www.nbcnews.com/",
+    domain: "nbcnews.com/",
     article: "article.article_entry",
     content: "div.article-body"
   },
   {
-    domain: "www.nytimes.com/\\d+/",
-    article: "main[role=main]",
+    domain: "nytimes.com/\\d+/",
+    article: "#story",
     content: "div.story-body"
   },
   {
-    domain: "www.washingtonpost.com/news/",
+    domain: "pri.org/\\S+/\\S+",
+    article: "#main-content",
+    content: "article.node.node-story"
+  },
+  {
+    domain: "telegraph.co.uk/",
+    article: "div.twoThirds.gutter",
+    content: "#mainBodyArea"
+  },
+  {
+    domain: "theguardian.com/",
+    article: "#article",
+    content: "h1[itemprop=\"headline\"],.content__standfirst,div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "washingtonpost.com/news/",
     article: "#pb-root",
     content: "div[itemprop=\"articleBody\"]"
   },
   {
-    domain: "www.yahoo.com/news/",
+    domain: "yahoo.com/news/",
     article: "div[itemtype=\"http://schema.org/NewsArticle\"]",
     content: "article[itemprop=\"articleBody\"]"
   }
