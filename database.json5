@@ -5,7 +5,13 @@
     content: "#container .article-copy"
   },
   {
-    domain: "articles.latimes.com/\\d+",
+    author: "a[rel=\"author\"]",
+    domain: "arstechnica.com/",
+    article: "article[itemtype=\"http://schema.org/NewsArticle\"]",
+    content: "article div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "articles.latimes.com/\\d+/",
     article: "#area-center-w-left",
     content: "#area-center-w-left .mod-articletext"
   },
@@ -36,6 +42,12 @@
     content: "div[itemprop=\"articleBody\"]"
   },
   {
+    author: "div.o-article_meta_bar__avatar a.th-meta",
+    domain: "engadget.com/\\d+/",
+    article: "div.grid article",
+    content: "article div.article-text"
+  },
+  {
     domain: "express.co.uk/\\S+",
     article: "#singleArticle",
     content: "div[data-type=\"article-body\"] section"
@@ -58,6 +70,12 @@
     article: ".content-inner",
     content: ".content-inner .standard_section",
     date: ".content-inner div.date"
+  },
+  {
+    author: "a.article-by",
+    domain: "firstpost.com/",
+    article: "div.container.article",
+    content: ".article div[itemprop=\"articleBody\"]"
   },
   {
     domain: "foxnews.com/",
@@ -89,6 +107,12 @@
     content: "article div[itemprop=\"articleBody\"]"
   },
   {
+    author: "article.post span.author_name",
+    domain: "mashable.com/\\d+/",
+    article: "article.post.story",
+    content: "article section.article-content"
+  },
+  {
     domain: "merckmanuals.com/\\S+",
     article: "div.body",
     content: "div.body section.body"
@@ -115,6 +139,18 @@
     author: "#main-content .story__meta"
   },
   {
+    author: "a[rel=\"author\"]",
+    domain: "techcrunch.com/\\d+/",
+    article: "article.article",
+    content: "article .article-entry.text"
+  },
+  {
+    author: "a[itemtype=\"http://schema.org/Person\"]",
+    domain: "techradar.com/",
+    article: "article[itemtype=\"http://schema.org/NewsArticle\"]",
+    content: "#article-body"
+  },
+  {
     domain: "telegraph.co.uk/",
     article: "div.twoThirds.gutter",
     content: "#mainBodyArea"
@@ -123,6 +159,12 @@
     domain: "theguardian.com/",
     article: "#article",
     content: "h1[itemprop=\"headline\"],.content__standfirst,div[itemprop=\"articleBody\"]"
+  },
+  {
+    author: "article.post a.post-authorName",
+    domain: "thenextweb.com/",
+    article: "article.post",
+    content: "article .post-body"
   },
   {
     domain: "usatoday.com/",

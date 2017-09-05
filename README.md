@@ -13,31 +13,38 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 28 domains available
+## 35 domains available
 
 * abcnews.go.com
+* arstechnica.com
 * articles.latimes.com
 * bbc.com
 * bossfeed.net
 * businessinsider.com
 * dailymail.co.uk
 * edition.cnn.com
+* engadget.com
 * express.co.uk
 * farnamstreetblog.com
 * fastcompany.com
 * finesociety.ro
+* firstpost.com
 * foxnews.com
 * huffingtonpost.com
 * info.localytics.com
 * isgp-studies.com
 * latimes.com
+* mashable.com
 * merckmanuals.com
 * money.cnn.com
 * nbcnews.com
 * nytimes.com
 * pri.org
+* techcrunch.com
+* techradar.com
 * telegraph.co.uk
 * theguardian.com
+* thenextweb.com
 * usatoday.com
 * washingtonpost.com
 * wsj.com
