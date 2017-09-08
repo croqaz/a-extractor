@@ -21,6 +21,12 @@
     content: "div.story-body .story-body__inner"
   },
   {
+    author: "#text_idea_show span.author",
+    domain: "bigthink.com/",
+    article: "#text_idea_show",
+    content: "#text_idea_show .article-body"
+  },
+  {
     domain: "bossfeed.net/\\d+/",
     article: "#content",
     content: ".article-content",
@@ -32,9 +38,21 @@
     content: "#content .post-content"
   },
   {
+    author: "#gkComponent .createdby",
+    domain: "curentul.info/",
+    article: "#gkComponent",
+    content: "#gkComponent .articleContent"
+  },
+  {
     domain: "dailymail.co.uk/",
     article: "#js-article-text",
     content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    author: ".entry-author a.author",
+    domain: "earthsky.org/",
+    article: ".content-container",
+    content: ".content-container .entry-content"
   },
   {
     domain: "edition.cnn.com/\\d+/",
@@ -81,6 +99,18 @@
     domain: "foxnews.com/",
     article: "article.story",
     content: "div.article-body"
+  },
+  {
+    author: "#primary span.author",
+    domain: "gazetadambovitei.ro/",
+    article: "#primary",
+    content: "#primary .entry-content"
+  },
+  {
+    author: "#content a.author",
+    domain: "howtogeek.com/\\d+/",
+    article: "#content",
+    content: "#content .entry-content"
   },
   {
     domain: "huffingtonpost.com/entry/",
@@ -137,6 +167,12 @@
     article: "#main-content",
     content: "#main-content article.node.node-story",
     author: "#main-content .story__meta"
+  },
+  {
+    author: "#main span.author",
+    domain: "romaniaa.ro/\\d+/",
+    article: "#main",
+    content: "#main .entry-content"
   },
   {
     author: "a[rel=\"author\"]",
