@@ -13,7 +13,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 41 domains available
+## 48 domains available
 
 * abcnews.go.com
 * arstechnica.com
@@ -24,6 +24,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * businessinsider.com
 * curentul.info
 * dailymail.co.uk
+* deepdotweb.com
 * earthsky.org
 * edition.cnn.com
 * engadget.com
@@ -33,12 +34,15 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * finesociety.ro
 * firstpost.com
 * foxnews.com
+* galacticconnection.com
+* gandeste.org
 * gazetadambovitei.ro
 * howtogeek.com
 * huffingtonpost.com
 * info.localytics.com
 * isgp-studies.com
 * latimes.com
+* life.ro
 * mashable.com
 * merckmanuals.com
 * money.cnn.com
@@ -46,12 +50,15 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * nytimes.com
 * pri.org
 * romaniaa.ro
+* start-up.ro
 * techcrunch.com
 * techradar.com
 * telegraph.co.uk
 * theguardian.com
 * thenextweb.com
 * usatoday.com
+* usnews.com
+* wall-street.ro
 * washingtonpost.com
 * wsj.com
 * yahoo.com

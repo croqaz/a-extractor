@@ -49,6 +49,12 @@
     content: "div[itemprop=\"articleBody\"]"
   },
   {
+    domain: "deepdotweb.com/\\d+/",
+    author: "article.post .post-meta span:first",
+    article: "article.post",
+    content: "article.post .entry"
+  },
+  {
     author: ".entry-author a.author",
     domain: "earthsky.org/",
     article: ".content-container",
@@ -101,6 +107,16 @@
     content: "div.article-body"
   },
   {
+    domain: "galacticconnection.com/",
+    article: "article.post",
+    content: "article.post .post-content"
+  },
+  {
+    domain: "gandeste.org/",
+    article: "#content",
+    content: "#content .post"
+  },
+  {
     author: "#primary span.author",
     domain: "gazetadambovitei.ro/",
     article: "#primary",
@@ -135,6 +151,13 @@
     domain: "latimes.com/\\S+",
     article: "article[itemtype=\"http://schema.org/Article\"],div.trb_ar_main",
     content: "article div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "life.ro/",
+    author: "article.details .content-meta>b>a",
+    date: "article.details .content-meta b.text-secondary",
+    article: "article.details",
+    content: "article.details p"
   },
   {
     author: "article.post span.author_name",
@@ -175,6 +198,12 @@
     content: "#main .entry-content"
   },
   {
+    domain: "start-up.ro/",
+    author: ".article-wrapper .article-authors",
+    article: ".article-wrapper",
+    content: ".article-wrapper .article-text"
+  },
+  {
     author: "a[rel=\"author\"]",
     domain: "techcrunch.com/\\d+/",
     article: "article.article",
@@ -188,8 +217,8 @@
   },
   {
     domain: "telegraph.co.uk/",
-    article: "div.twoThirds.gutter",
-    content: "#mainBodyArea"
+    article: "main[itemtype=\"http://schema.org/NewsArticle\"]",
+    content: "article[itemprop=\"articleBody\"]"
   },
   {
     domain: "theguardian.com/",
@@ -206,6 +235,17 @@
     domain: "usatoday.com/",
     article: "article.asset.story",
     content: "article.story div[itemprop=\"articleBody\"]"
+  },
+  {
+    domain: "usnews.com/news/",
+    article: ".content-wrapper",
+    content: "#ad-in-text-target"
+  },
+  {
+    domain: "wall-street.ro/",
+    author: ".common-padder a.editor span",
+    article: ".common-padder",
+    content: ".common-padder .article-content"
   },
   {
     domain: "washingtonpost.com/news/",
