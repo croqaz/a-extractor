@@ -7,13 +7,18 @@ This is a database of expressions used for extracting content from blogs and art
 
 The database format is [JSON5](http://json5.org), a strict subset of Javascript, that can be converted to normal JSON.
 The extraction expressions are [Cheerio](https://cheerio.js.org), very similar with jQuery.
-The targeted informations are: **the title** of the article, **the author**, **the date** when the article was written, and of course, the article text, as clean as possible.
+
+The targeted information is:
+- **the title** of the article
+- **the author**
+- **the date** when the article was written
+- and of course, the article text, as clean as possible
 
 This project is designed to be used with [Clean-Mark](https://github.com/croqaz/clean-mark) and the [Clean-Mark-GUI](https://github.com/croqaz/clean-mark-gui), but you can use it however you want.
 
 <div id="marker" markdown="1">
 
-## 48 domains available
+## 53 domains available
 
 * abcnews.go.com
 * arstechnica.com
@@ -40,14 +45,18 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * howtogeek.com
 * huffingtonpost.com
 * info.localytics.com
+* infoalert.ro
 * isgp-studies.com
+* jurnalul.ro
 * latimes.com
 * life.ro
 * mashable.com
 * merckmanuals.com
 * money.cnn.com
 * nbcnews.com
+* neonnettles.com
 * nytimes.com
+* observator.tv
 * pri.org
 * romaniaa.ro
 * start-up.ro
@@ -60,6 +69,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * usnews.com
 * wall-street.ro
 * washingtonpost.com
+* weforum.org
 * wsj.com
 * yahoo.com
 * ziare.com

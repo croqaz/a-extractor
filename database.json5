@@ -117,6 +117,7 @@
     content: "#content .post"
   },
   {
+    date: "#primary .posted-on time",
     author: "#primary span.author",
     domain: "gazetadambovitei.ro/",
     article: "#primary",
@@ -141,11 +142,24 @@
     date: "h5.single-post__date"
   },
   {
+    date: ".td-post-date time",
+    author: ".td-post-author-name a",
+    domain: "infoalert.ro/\\d+/",
+    article: "article[itemtype=\"http://schema.org/Article\"]",
+    content: "article .td-post-content"
+  },
+  {
     domain: "isgp-studies.com/\\S+",
     article: "#article_wrapper main",
     content: "#article_body",
     author: "#article_author_and_date",
     date: "#article_author_and_date"
+  },
+  {
+    date: "#main .authors",
+    domain: "jurnalul.ro/",
+    article: "#main",
+    content: "#main .text"
   },
   {
     domain: "latimes.com/\\S+",
@@ -181,9 +195,21 @@
     content: "article div.article-body"
   },
   {
+    author: "#author",
+    date: "#date",
+    domain: "neonnettles.com/",
+    article: "#detailWrapper article",
+    content: "#detailWrapper article section"
+  },
+  {
     domain: "nytimes.com/\\d+/",
     article: "#story",
     content: "#story .story-body"
+  },
+  {
+    domain: "observator.tv/",
+    article: "#article",
+    content: "#__content"
   },
   {
     domain: "pri.org/\\S+/\\S+",
@@ -192,6 +218,7 @@
     author: "#main-content .story__meta"
   },
   {
+    date: "#main .published",
     author: "#main span.author",
     domain: "romaniaa.ro/\\d+/",
     article: "#main",
@@ -251,6 +278,13 @@
     domain: "washingtonpost.com/news/",
     article: "#pb-root",
     content: "div[itemprop=\"articleBody\"]"
+  },
+  {
+    author: ".content-container .author-details",
+    date: ".content-container .article-published",
+    domain: "weforum.org/",
+    article: ".content-container",
+    content: ".content-container .article-body"
   },
   {
     domain: "wsj.com/(?:articles|experts)/",
