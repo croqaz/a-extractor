@@ -55,6 +55,12 @@
     content: "article.post .entry"
   },
   {
+    date: ".entry-meta time",
+    domain: "digi24.ro/",
+    article: "article[itemtype=\"http://schema.org/NewsArticle\"]",
+    content: "article div[itemprop=\"articleBody\"]"
+  },
+  {
     author: ".entry-author a.author",
     domain: "earthsky.org/",
     article: ".content-container",
@@ -229,6 +235,17 @@
     author: ".article-wrapper .article-authors",
     article: ".article-wrapper",
     content: ".article-wrapper .article-text"
+  },
+  {
+    date: ".staticPageContent .itemDate",
+    domain: "stiri.tvr.ro/",
+    article: ".staticContainer",
+    content: ".staticContainer p"
+  },
+  {
+    domain: "stirileprotv.ro/",
+    article: "section .container",
+    content: "#stuck"
   },
   {
     author: "a[rel=\"author\"]",
