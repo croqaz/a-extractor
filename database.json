@@ -5,6 +5,11 @@
     "content": "#container .article-copy"
   },
   {
+    "domain": "arenait.net/\\d+/",
+    "article": "article.post",
+    "content": "article.post .entry-content"
+  },
+  {
     "author": "a[rel=\"author\"]",
     "domain": "arstechnica.com/",
     "article": "article[itemtype=\"http://schema.org/NewsArticle\"]",
@@ -36,6 +41,11 @@
     "domain": "businessinsider.com/",
     "article": "#content",
     "content": "#content .post-content"
+  },
+  {
+    "domain": "collectivelyconscious.net/",
+    "article": "article.post",
+    "content": "article.post .pf-content"
   },
   {
     "author": "#gkComponent .createdby",
