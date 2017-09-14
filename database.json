@@ -5,6 +5,12 @@
     "content": "#container .article-copy"
   },
   {
+    "domain": "agroinfo.ro/",
+    "article": "#news_page",
+    "author": "#news_page .news_date",
+    "content": "#news_body"
+  },
+  {
     "domain": "arenait.net/\\d+/",
     "article": "article.post",
     "content": "article.post .entry-content"
@@ -145,6 +151,18 @@
     "domain": "gazetadambovitei.ro/",
     "article": "#primary",
     "content": "#primary .entry-content"
+  },
+  {
+    "domain": "gnosticwarrior.com/",
+    "author": "span.author",
+    "article": "article.post",
+    "content": "article.post .entry-content"
+  },
+  {
+    "domain": "hotnews.ro/",
+    "article": ".articol_render",
+    "author": ".articol_render .autor a",
+    "content": "#articleContent"
   },
   {
     "author": "#content a.author",
@@ -315,6 +333,12 @@
     "domain": "thenextweb.com/",
     "article": "article.post",
     "content": "article .post-body"
+  },
+  {
+    "domain": "thrillist.com/",
+    "author": "#content a[itemprop=\"author\"]",
+    "article": "#content",
+    "content": "#content div[itemprop=\"articleBody\"]"
   },
   {
     "domain": "usatoday.com/",
