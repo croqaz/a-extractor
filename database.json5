@@ -26,6 +26,13 @@
     content: "div.story-body .story-body__inner"
   },
   {
+    domain: "beta.theglobeandmail.com/",
+    article: "#pb-root",
+    content: "article.c-article .c-article-body",
+    author: ".c-article-meta a.c-byline",
+    date: ".c-article-meta time.c-timestamp"
+  },
+  {
     author: "#text_idea_show span.author",
     domain: "bigthink.com/",
     article: "#text_idea_show",
@@ -218,9 +225,27 @@
     content: "#detailWrapper article section"
   },
   {
+    domain: "news.com.au/",
+    article: "#page",
+    content: "#story",
+    date: "#story-info .datestamp"
+  },
+  {
+    domain: "newscientist.com/",
+    article: "article.article",
+    content: "article .article-body",
+    date: "article .published-date"
+  },
+  {
     domain: "nytimes.com/\\d+/",
     article: "#story",
     content: "#story .story-body"
+  },
+  {
+    domain: "nzherald.co.nz/",
+    article: "article.full",
+    content: "#article-content",
+    date: "header figure .publish"
   },
   {
     domain: "observator.tv/",
@@ -239,6 +264,12 @@
     domain: "romaniaa.ro/\\d+/",
     article: "#main",
     content: "#main .entry-content"
+  },
+  {
+    domain: "smh.com.au/",
+    article: "article.article",
+    content: "article div[itemprop=\"articleBody\"]",
+    author: ".signature__info h5[rel=\"author\"]"
   },
   {
     domain: "start-up.ro/",

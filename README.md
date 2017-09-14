@@ -19,13 +19,14 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 58 domains available
+## 63 domains available
 
 * abcnews.go.com
 * arenait.net
 * arstechnica.com
 * articles.latimes.com
 * bbc.com
+* beta.theglobeandmail.com
 * bigthink.com
 * bossfeed.net
 * businessinsider.com
@@ -59,10 +60,14 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * money.cnn.com
 * nbcnews.com
 * neonnettles.com
+* news.com.au
+* newscientist.com
 * nytimes.com
+* nzherald.co.nz
 * observator.tv
 * pri.org
 * romaniaa.ro
+* smh.com.au
 * start-up.ro
 * stiri.tvr.ro
 * stirileprotv.ro
