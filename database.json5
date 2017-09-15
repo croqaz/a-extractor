@@ -159,6 +159,12 @@
     content: "article.post .entry-content"
   },
   {
+    date: "#content .posted-on time",
+    domain: "hackread.com/",
+    article: "#content",
+    content: "#content .entry-content"
+  },
+  {
     domain: "hotnews.ro/",
     article: ".articol_render",
     author: ".articol_render .autor a",
@@ -188,6 +194,12 @@
     domain: "infoalert.ro/\\d+/",
     article: "article[itemtype=\"http://schema.org/Article\"]",
     content: "article .td-post-content"
+  },
+  {
+    date: "article .time-info time",
+    domain: "irishmirror.ie/",
+    article: "article.article-main",
+    content: "article div[itemprop=\"articleBody\"]"
   },
   {
     domain: "isgp-studies.com/\\S+",
@@ -284,6 +296,12 @@
     content: "#main .entry-content"
   },
   {
+    date: ".article__date time",
+    domain: "rt.com/",
+    article: ".article",
+    content: ".article .text"
+  },
+  {
     domain: "smh.com.au/",
     article: "article.article",
     content: "article div[itemprop=\"articleBody\"]",
@@ -329,6 +347,12 @@
     content: "h1[itemprop=\"headline\"],.content__standfirst,div[itemprop=\"articleBody\"]"
   },
   {
+    date: "article .entry-meta-date a",
+    domain: "theliberal.ie/",
+    article: "article.post",
+    content: "article .entry-content"
+  },
+  {
     author: "article.post a.post-authorName",
     domain: "thenextweb.com/",
     article: "article.post",
@@ -341,6 +365,12 @@
     content: "#content div[itemprop=\"articleBody\"]"
   },
   {
+    date: "article .entry-meta-item time",
+    domain: "torrentfreak.com/",
+    article: "article.entry",
+    content: "article .entry-content"
+  },
+  {
     domain: "usatoday.com/",
     article: "article.asset.story",
     content: "article.story div[itemprop=\"articleBody\"]"
@@ -349,6 +379,12 @@
     domain: "usnews.com/news/",
     article: ".content-wrapper",
     content: "#ad-in-text-target"
+  },
+  {
+    date: "article.post .post-box-meta-single",
+    domain: "wakingtimes.com/\\d+/",
+    article: "article.post",
+    content: "article.post .inner-post-entry"
   },
   {
     domain: "wall-street.ro/",

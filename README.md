@@ -19,7 +19,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 67 domains available
+## 73 domains available
 
 * abcnews.go.com
 * agroinfo.ro
@@ -49,11 +49,13 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * gandeste.org
 * gazetadambovitei.ro
 * gnosticwarrior.com
+* hackread.com
 * hotnews.ro
 * howtogeek.com
 * huffingtonpost.com
 * info.localytics.com
 * infoalert.ro
+* irishmirror.ie
 * isgp-studies.com
 * jurnalul.ro
 * latimes.com
@@ -70,6 +72,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * observator.tv
 * pri.org
 * romaniaa.ro
+* rt.com
 * smh.com.au
 * start-up.ro
 * stiri.tvr.ro
@@ -78,10 +81,13 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * techradar.com
 * telegraph.co.uk
 * theguardian.com
+* theliberal.ie
 * thenextweb.com
 * thrillist.com
+* torrentfreak.com
 * usatoday.com
 * usnews.com
+* wakingtimes.com
 * wall-street.ro
 * washingtonpost.com
 * weforum.org
