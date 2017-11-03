@@ -27,6 +27,13 @@
     content: "#area-center-w-left .mod-articletext"
   },
   {
+    domain: "artsy.net/article/",
+    article: "#article-root .article__text-section",
+    author: "#article-root .author",
+    date: "#article-root .date",
+    content: "#article-root"
+  },
+  {
     domain: "bbc.com/news/",
     article: "div.story-body",
     content: "div.story-body .story-body__inner"
@@ -165,6 +172,13 @@
     content: "#content .entry-content"
   },
   {
+    domain: "hbr.org/\\d+/",
+    article: ".article-content .article",
+    author: ".article-header .byline a",
+    date: ".article-header .publication-date",
+    content: "article-content.article-content"
+  },
+  {
     domain: "hotnews.ro/",
     article: ".articol_render",
     author: ".articol_render .autor a",
@@ -272,6 +286,12 @@
     article: "article.article",
     content: "article .article-body",
     date: "article .published-date"
+  },
+  {
+    domain: "newyorker.com/",
+    article: "#articleBody",
+    author: "main article header a[rel=\"author\"]",
+    content: "main article"
   },
   {
     domain: "nytimes.com/\\d+/",

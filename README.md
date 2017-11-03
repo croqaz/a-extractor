@@ -1,8 +1,13 @@
-<h1 align="center" markdown="1">
+<h2 align="center">
   Article extractor
-</h1>
+  <br>
+</h2>
 
- [![Version](https://img.shields.io/npm/v/a-extractor.svg)](https://www.npmjs.com/package/a-extractor) [![Downloads](https://img.shields.io/npm/dt/a-extractor.svg)](https://www.npmjs.com/package/a-extractor)
+<p align="center">
+  <a href="https://www.npmjs.com/package/a-extractor"><img src="https://img.shields.io/npm/v/a-extractor.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/a-extractor"><img src="https://img.shields.io/npm/dt/a-extractor.svg" alt="Downloads"></a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
+</p>
 
 This is a database of expressions used for extracting content from blogs and articles.
 
@@ -20,13 +25,14 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 75 domains available
+## 78 domains available
 
 * abcnews.go.com
 * agroinfo.ro
 * arenait.net
 * arstechnica.com
 * articles.latimes.com
+* artsy.net
 * bbc.com
 * beta.theglobeandmail.com
 * bigthink.com
@@ -51,6 +57,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * gazetadambovitei.ro
 * gnosticwarrior.com
 * hackread.com
+* hbr.org
 * hotnews.ro
 * howtogeek.com
 * huffingtonpost.com
@@ -69,6 +76,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * neonnettles.com
 * news.com.au
 * newscientist.com
+* newyorker.com
 * nytimes.com
 * nzherald.co.nz
 * observator.tv
