@@ -1,7 +1,8 @@
-<h1 align="center">
+<h1 align="center" markdown="1">
   Article extractor
-  [![Version](https://img.shields.io/npm/v/a-extractor.svg)](https://www.npmjs.com/package/a-extractor) [![Downloads](https://img.shields.io/npm/dt/a-extractor.svg)](https://www.npmjs.com/package/a-extractor)
 </h1>
+
+ [![Version](https://img.shields.io/npm/v/a-extractor.svg)](https://www.npmjs.com/package/a-extractor) [![Downloads](https://img.shields.io/npm/dt/a-extractor.svg)](https://www.npmjs.com/package/a-extractor)
 
 This is a database of expressions used for extracting content from blogs and articles.
 
