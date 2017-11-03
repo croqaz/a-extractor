@@ -1,6 +1,6 @@
 <h1 align="center">
   Article extractor
-  <br>
+  [![Version](https://img.shields.io/npm/v/a-extractor.svg)](https://www.npmjs.com/package/a-extractor) [![Downloads](https://img.shields.io/npm/dt/a-extractor.svg)](https://www.npmjs.com/package/a-extractor)
 </h1>
 
 This is a database of expressions used for extracting content from blogs and articles.
@@ -19,7 +19,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 73 domains available
+## 75 domains available
 
 * abcnews.go.com
 * agroinfo.ro
@@ -64,6 +64,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * merckmanuals.com
 * money.cnn.com
 * nbcnews.com
+* ncbi.nlm.nih.gov
 * neonnettles.com
 * news.com.au
 * newscientist.com
@@ -73,6 +74,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * pri.org
 * romaniaa.ro
 * rt.com
+* rts.earth
 * smh.com.au
 * start-up.ro
 * stiri.tvr.ro
@@ -128,6 +130,6 @@ The "fork-and-pull" Git workflow:
 
 -----
 
-Made by :copyright: :registered: :radio_button:
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Released under the [MIT license](https://raw.githubusercontent.com/croqaz/a-extractor/master/LICENSE).
+Copyright (c) 2017 Cristi Constantin.

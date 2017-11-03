@@ -248,6 +248,13 @@
     "content": "article div.article-body"
   },
   {
+    "domain": "ncbi.nlm.nih.gov/",
+    "article": ".abstract",
+    "content": ".abstract .abstr",
+    "date": ".abstract .cit",
+    "author": ".abstract .auths"
+  },
+  {
     "author": "#author",
     "date": "#date",
     "domain": "neonnettles.com/",
@@ -300,6 +307,12 @@
     "domain": "rt.com/",
     "article": ".article",
     "content": ".article .text"
+  },
+  {
+    "domain": "rts.earth/\\d+/",
+    "article": "article.post",
+    "content": "article.post .entry-content",
+    "date": "article.post .post-date"
   },
   {
     "domain": "smh.com.au/",

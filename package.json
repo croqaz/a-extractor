@@ -6,15 +6,15 @@
     "url": "https://github.com/croqaz/a-extractor/issues"
   },
   "dependencies": {
-    "json5": "0.x"
+    "json5": "0.5.x"
   },
   "description": "Article content extraction database",
   "devDependencies": {
-    "mocha": "3.x",
-    "should": "11.x"
+    "mocha": "4.x",
+    "should": "13.x"
   },
   "engines": {
-    "node": ">6.0.0"
+    "node": ">=6.0.0"
   },
   "homepage": "https://github.com/croqaz/a-extractor#readme",
   "keywords": [
