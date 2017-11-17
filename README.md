@@ -1,15 +1,11 @@
-<h2 align="center">
-  Article extractor
-  <br>
-</h2>
+# 📃 Article extractor
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/a-extractor"><img src="https://img.shields.io/npm/v/a-extractor.svg" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/a-extractor"><img src="https://img.shields.io/npm/dt/a-extractor.svg" alt="Downloads"></a>
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
-</p>
+  > Database of expressions used for extracting content from blogs and articles.
 
-This is a database of expressions used for extracting content from blogs and articles.
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  [![Standard Style Guide][style-image]][style-url]
+
 
 The database format is [JSON5](http://json5.org), a strict subset of Javascript, also available as a normal JSON.
 
@@ -21,7 +17,7 @@ The targeted information is:
 - **the date** when the article was written
 - and of course, the article text, as clean as possible
 
-This project is designed to be used with [Clean-Mark](https://github.com/croqaz/clean-mark) and the [Clean-Mark-GUI](https://github.com/croqaz/clean-mark-gui), but you can use it however you want.
+This project is designed to be used with [Clean-Mark](https://github.com/croqaz/clean-mark), but you can use it however you want.
 
 <div id="marker" markdown="1">
 
@@ -111,7 +107,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 ## Important
 
 [Clean-Mark](https://github.com/croqaz/clean-mark) already has algorithms to extract most of the info, if the website is SEO friendly, eg: it respects schema.org/Article, or Microformats, or the Open Graph protocol.<br>
-But it's not a perfect tool 🤖  and it needs help from humans 🙄
+But it's not a perfect tool 🤖  and it needs help from us humans 🙄
 
 ## Contributions
 
@@ -139,6 +135,14 @@ The "fork-and-pull" Git workflow:
 
 -----
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+### License
 
-Copyright (c) 2017 Cristi Constantin.
+[MIT](LICENSE) (c) 2017 Cristi Constantin
+
+
+[npm-image]: https://img.shields.io/npm/v/a-extractor.svg
+[npm-url]: https://www.npmjs.com/package/a-extractor
+[downloads-image]: https://img.shields.io/npm/dm/a-extractor.svg
+[downloads-url]: https://npmjs.org/package/a-extractor
+[style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[style-url]: https://standardjs.com
