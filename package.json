@@ -6,7 +6,9 @@
     "url": "https://github.com/croqaz/a-extractor/issues"
   },
   "dependencies": {
-    "json5": "0.5.x"
+    "json5": "0.5.x",
+    "xmldom": "0.x",
+    "xpath": "0.x"
   },
   "description": "Article content extraction database",
   "devDependencies": {
@@ -30,7 +32,7 @@
     "url": "git+https://github.com/croqaz/a-extractor.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha $(find . -name './test/*.test.js')"
+    "test": "npx mocha $(find . -name './test/*.test.js')"
   },
   "version": "1.0.4"
 }
