@@ -6,12 +6,11 @@
     "url": "https://github.com/croqaz/a-extractor/issues"
   },
   "dependencies": {
-    "json5": "0.5.x",
-    "xmldom": "0.x",
-    "xpath": "0.x"
+    "json5": "0.5.x"
   },
   "description": "Article content extraction database",
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "mocha": "4.x",
     "should": "13.x"
   },

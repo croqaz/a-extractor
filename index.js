@@ -6,11 +6,61 @@ const url = require('url')
 const DB = `${__dirname}/database.json5`
 const srcs = JSON5.parse(fs.readFileSync(DB))
 
-module.exports.sources = srcs
-
-module.exports.findExtractor = function findExtractor (link, sources = srcs) {
+function findExtractor (link, sources = srcs) {
+  /**
+    Each entry in the source must contain: author, date and content.
+    The selectors can be in one of the forms:
+   - selector string
+   - object { selector: '...', attr: '...' }
+   */
   const u = url.parse(link)
   return sources.find(c =>
     new RegExp(c.domain).test(`${u.host}${u.path}`) ? c : null
   )
+}
+
+function extract ($, link, sources = srcs) {
+  /**
+   * The DOM must be a Cheerio object, jQuery, or similar.
+   */
+  const aex = findExtractor(link)
+  if (!aex) {
+    return {}
+  }
+  const dict = {
+    content: selectOne($, aex.content)
+  }
+  if (aex.author) {
+    try {
+      dict.author = selectOne($, aex.author)
+    } catch (err) {
+      console.error(err)
+    }
+  }
+  if (aex.date) {
+    try {
+      dict.date = selectOne($, aex.date)
+    } catch (err) {
+      console.error(err)
+    }
+  }
+  return dict
+}
+
+function selectOne ($, aex) {
+  if (typeof(aex) === 'string') {
+    return $(aex).text().trim()
+  }
+  if (aex.attr) {
+    return $(aex.selector).attr(aex.attr).trim()
+  } else {
+    return $(aex.selector).text().trim()
+  }
+}
+
+module.exports = {
+  sources: srcs,
+  findExtractor,
+  selectOne,
+  extract
 }
