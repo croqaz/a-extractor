@@ -7,7 +7,7 @@
   {
     domain: "agroinfo.ro/",
     article: "#news_page",
-    author: "#news_page .news_date",
+    date: "#news_page .news_date",
     content: "#news_body"
   },
   {
@@ -175,7 +175,10 @@
     domain: "hbr.org/\\d+/",
     article: ".article-content .article",
     author: ".article-header .byline a",
-    date: ".article-header .publication-date",
+    date: {
+      selector: "meta[property=\"article:published_time\"]",
+      attr: "content"
+    },
     content: "article-content.article-content"
   },
   {
@@ -392,6 +395,12 @@
     content: "article .post-body"
   },
   {
+    domain: "theverge.com/\\d+/",
+    content: ".entry-content",
+    date: "time.c-byline__item",
+    author: ".c-byline__item a"
+  },
+  {
     domain: "thrillist.com/",
     author: "#content a[itemprop=\"author\"]",
     article: "#content",
@@ -412,6 +421,19 @@
     domain: "usnews.com/news/",
     article: ".content-wrapper",
     content: "#ad-in-text-target"
+  },
+  {
+    domain: "vox.com/",
+    author: {
+      selector: "meta[property=\"author\"]",
+      attr: "content"
+    },
+    date: {
+      selector: "meta[property=\"article:published_time\"]",
+      attr: "content"
+    },
+    article: ".l-main-content .c-entry-content",
+    content: "section.l-main-content"
   },
   {
     date: "article.post .post-box-meta-single",

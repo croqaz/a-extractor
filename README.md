@@ -12,7 +12,6 @@ The database format is [JSON5](http://json5.org), a strict subset of Javascript,
 The extraction expressions are [Cheerio](https://cheerio.js.org), similar with jQuery.
 
 The targeted information is:
-- **the title** of the article
 - **the author**
 - **the date** when the article was written
 - and of course, the article text, as clean as possible
@@ -21,7 +20,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 78 domains available
+## 80 domains available
 
 * abcnews.go.com
 * agroinfo.ro
@@ -90,10 +89,12 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * theguardian.com
 * theliberal.ie
 * thenextweb.com
+* theverge.com
 * thrillist.com
 * torrentfreak.com
 * usatoday.com
 * usnews.com
+* vox.com
 * wakingtimes.com
 * wall-street.ro
 * washingtonpost.com
@@ -135,9 +136,9 @@ The "fork-and-pull" Git workflow:
 
 -----
 
-### License
+## License
 
-[MIT](LICENSE) (c) 2017 Cristi Constantin
+[MIT](LICENSE) © Cristi Constantin.
 
 
 [npm-image]: https://img.shields.io/npm/v/a-extractor.svg
