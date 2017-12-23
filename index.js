@@ -28,7 +28,7 @@ function extract ($, link, sources = srcs) {
     return {}
   }
   const dict = {
-    content: selectOne($, aex.content)
+    content: $(aex.content).html()
   }
   if (aex.author) {
     try {

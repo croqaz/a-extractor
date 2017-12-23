@@ -1,8 +1,15 @@
 [
   {
     "domain": "abcnews.go.com/",
-    "article": "#container",
-    "content": "#container .article-copy"
+    "content": "#container .article-body .article-copy",
+    "date": {
+      "selector": "meta[name=\"Last-Modified\"]",
+      "attr": "content"
+    },
+    "author": {
+      "selector": "meta[property=\"article:author\"]",
+      "attr": "content"
+    }
   },
   {
     "domain": "agroinfo.ro/",
@@ -12,7 +19,6 @@
   },
   {
     "domain": "arenait.net/\\d+/",
-    "article": "article.post",
     "content": "article.post .entry-content"
   },
   {
@@ -162,28 +168,24 @@
   {
     "domain": "gnosticwarrior.com/",
     "author": "span.author",
-    "article": "article.post",
     "content": "article.post .entry-content"
   },
   {
     "date": "#content .posted-on time",
     "domain": "hackread.com/",
-    "article": "#content",
     "content": "#content .entry-content"
   },
   {
     "domain": "hbr.org/\\d+/",
-    "article": ".article-content .article",
+    "content": ".article-content .article",
     "author": ".article-header .byline a",
     "date": {
       "selector": "meta[property=\"article:published_time\"]",
       "attr": "content"
-    },
-    "content": "article-content.article-content"
+    }
   },
   {
     "domain": "hotnews.ro/",
-    "article": ".articol_render",
     "author": ".articol_render .autor a",
     "content": "#articleContent"
   },
@@ -226,21 +228,30 @@
     "date": "#article_author_and_date"
   },
   {
+    "domain": "jamesclear.com/",
+    "content": ".block-content article.post",
+    "author": {
+      "selector": "meta[property=\"article:author\"]",
+      "attr": "content"
+    },
+    "date": {
+      "selector": "meta[property=\"article:published_time\"]",
+      "attr": "content"
+    }
+  },
+  {
     "date": "#main .authors",
     "domain": "jurnalul.ro/",
-    "article": "#main",
     "content": "#main .text"
   },
   {
     "domain": "latimes.com/\\S+",
-    "article": "article[itemtype=\"http://schema.org/Article\"],div.trb_ar_main",
     "content": "article div[itemprop=\"articleBody\"]"
   },
   {
     "domain": "life.ro/",
     "author": "article.details .content-meta>b>a",
     "date": "article.details .content-meta b.text-secondary",
-    "article": "article.details",
     "content": "article.details p"
   },
   {
@@ -258,6 +269,18 @@
     "domain": "money.cnn.com/\\d+/",
     "article": "main[role=main]",
     "content": "#storytext"
+  },
+  {
+    "domain": "nautil.us/issue/",
+    "content": "article div[itemprop=\"articleBody\"]",
+    "author": {
+      "selector": "meta[name=\"citation_author\"]",
+      "attr": "content"
+    },
+    "date": {
+      "selector": "meta[itemprop=\"datePublished\"]",
+      "attr": "content"
+    }
   },
   {
     "domain": "nbcnews.com/",
@@ -403,18 +426,15 @@
   {
     "domain": "thrillist.com/",
     "author": "#content a[itemprop=\"author\"]",
-    "article": "#content",
     "content": "#content div[itemprop=\"articleBody\"]"
   },
   {
     "date": "article .entry-meta-item time",
     "domain": "torrentfreak.com/",
-    "article": "article.entry",
     "content": "article .entry-content"
   },
   {
     "domain": "usatoday.com/",
-    "article": "article.asset.story",
     "content": "article.story div[itemprop=\"articleBody\"]"
   },
   {
@@ -432,19 +452,16 @@
       "selector": "meta[property=\"article:published_time\"]",
       "attr": "content"
     },
-    "article": ".l-main-content .c-entry-content",
-    "content": "section.l-main-content"
+    "content": "section.l-main-content .c-entry-content"
   },
   {
     "date": "article.post .post-box-meta-single",
     "domain": "wakingtimes.com/\\d+/",
-    "article": "article.post",
     "content": "article.post .inner-post-entry"
   },
   {
     "domain": "wall-street.ro/",
     "author": ".common-padder a.editor span",
-    "article": ".common-padder",
     "content": ".common-padder .article-content"
   },
   {
@@ -456,12 +473,10 @@
     "author": ".content-container .author-details",
     "date": ".content-container .article-published",
     "domain": "weforum.org/",
-    "article": ".content-container",
     "content": ".content-container .article-body"
   },
   {
     "domain": "wsj.com/(?:articles|experts)/",
-    "article": "#article_sector",
     "content": "#article_sector .wsj-snippet-body",
     "date": "#article_sector time.timestamp"
   },

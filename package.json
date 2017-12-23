@@ -10,8 +10,10 @@
   },
   "description": "Article content extraction database",
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "latest",
+    "minimize": "2.x",
     "mocha": "4.x",
+    "node-fetch": "latest",
     "should": "13.x"
   },
   "engines": {

@@ -20,7 +20,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 80 domains available
+## 82 domains available
 
 * abcnews.go.com
 * agroinfo.ro
@@ -60,12 +60,14 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * infoalert.ro
 * irishmirror.ie
 * isgp-studies.com
+* jamesclear.com
 * jurnalul.ro
 * latimes.com
 * life.ro
 * mashable.com
 * merckmanuals.com
 * money.cnn.com
+* nautil.us
 * nbcnews.com
 * ncbi.nlm.nih.gov
 * neonnettles.com
