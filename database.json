@@ -22,31 +22,30 @@
     "content": "article.post .entry-content"
   },
   {
-    "author": "a[rel=\"author\"]",
+    "author": "a[rel=\"author\"] span[itemprop=\"name\"]",
+    "date": {
+      "selector": "time.date",
+      "attr": "datetime"
+    },
     "domain": "arstechnica.com/",
-    "article": "article[itemtype=\"http://schema.org/NewsArticle\"]",
     "content": "article div[itemprop=\"articleBody\"]"
   },
   {
     "domain": "articles.latimes.com/\\d+/",
-    "article": "#area-center-w-left",
     "content": "#area-center-w-left .mod-articletext"
   },
   {
     "domain": "artsy.net/article/",
-    "article": "#article-root .article__text-section",
     "author": "#article-root .author",
     "date": "#article-root .date",
-    "content": "#article-root"
+    "content": "#article-root .article__text-section"
   },
   {
     "domain": "bbc.com/news/",
-    "article": "div.story-body",
     "content": "div.story-body .story-body__inner"
   },
   {
     "domain": "beta.theglobeandmail.com/",
-    "article": "#pb-root",
     "content": "article.c-article .c-article-body",
     "author": ".c-article-meta a.c-byline",
     "date": ".c-article-meta time.c-timestamp"
@@ -54,14 +53,16 @@
   {
     "author": "#text_idea_show span.author",
     "domain": "bigthink.com/",
-    "article": "#text_idea_show",
     "content": "#text_idea_show .article-body"
   },
   {
     "domain": "bossfeed.net/\\d+/",
-    "article": "#content",
-    "content": ".article-content",
-    "date": "time.published"
+    "content": "#content .article-content",
+    "date": {
+      "selector": "time.published",
+      "attr": "datetime"
+    },
+    "author": "span.author a.url"
   },
   {
     "domain": "businessinsider.com/",
