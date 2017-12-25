@@ -2,11 +2,11 @@
 const a = require('../')
 const cheerio = require('cheerio')
 
-describe('Extractor Test suite', function () {
+describe('Extractor Test database', function () {
 
   it('should have an Array database', function () {
     a.sources.should.be.an.Array()
-    a.sources.length.should.be.an.aboveOrEqual(50)
+    a.sources.length.should.be.an.aboveOrEqual(75)
   })
 
   it('should find Farnamstreetblog.com', function () {
