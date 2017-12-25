@@ -9,9 +9,9 @@ const srcs = JSON5.parse(fs.readFileSync(DB))
 function findExtractor (link, sources = srcs) {
   /**
     Each entry in the source must contain: author, date and content.
-    The selectors can be in one of the forms:
+    The selectors must be in one of the forms:
    - selector string
-   - object { selector: '...', attr: '...' }
+   - object { selector: '...', [attr: '...' || data: '...'] }
    */
   const u = url.parse(link)
   return sources.find(c =>
@@ -27,8 +27,15 @@ function extract ($, link, sources = srcs) {
   if (!aex) {
     return {}
   }
-  const dict = {
-    content: $(aex.content).html()
+  const dict = {}
+  const $text = $(aex.content)
+  if ($text.length === 1) {
+    dict.content = $text.html()
+  } else if ($text.length > 1) {
+    dict.content = $text
+      .map((i, a) => $(a).html())
+      .get()
+      .join('<br>\n')
   }
   if (aex.author) {
     try {
@@ -48,11 +55,21 @@ function extract ($, link, sources = srcs) {
 }
 
 function selectOne ($, aex) {
-  if (typeof(aex) === 'string') {
+  /**
+    The selector must be in one of the forms:
+   - selector string
+   - object { selector: '...', [attr: '...' || data: '...'] }
+   */
+  if (typeof (aex) === 'string') {
     return $(aex).text().trim()
+  }
+  if (!aex.selector) {
+    return ''
   }
   if (aex.attr) {
     return $(aex.selector).attr(aex.attr).trim()
+  } else if (aex.data) {
+    return $(aex.selector).data(aex.data).trim()
   } else {
     return $(aex.selector).text().trim()
   }

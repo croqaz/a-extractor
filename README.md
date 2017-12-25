@@ -8,7 +8,7 @@
   [![Standard Style Guide][style-image]][style-url]
 
 
-The database format is [JSON5](http://json5.org), a strict subset of Javascript, also available as a normal JSON.
+The main database is [JSON5](http://json5.org) format, a strict subset of Javascript, also available as a normal JSON, for convenience.
 
 The extraction expressions are [Cheerio](https://cheerio.js.org), similar with jQuery.
 
@@ -21,7 +21,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 82 domains available
+## 83 domains available
 
 * abcnews.go.com
 * agroinfo.ro
@@ -89,6 +89,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * techcrunch.com
 * techradar.com
 * telegraph.co.uk
+* theatlantic.com
 * theguardian.com
 * theliberal.ie
 * thenextweb.com

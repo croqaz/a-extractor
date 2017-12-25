@@ -401,6 +401,18 @@
     content: "article[itemprop=\"articleBody\"]"
   },
   {
+    domain: "theatlantic.com/magazine/",
+    content: "#article div[itemprop=\"articleBody\"] section",
+    date: {
+      selector: "meta[itemprop=\"datePublished\"]",
+      attr: "content"
+    },
+    author: {
+      selector: "meta[name=\"author\"]",
+      attr: "content"
+    }
+  },
+  {
     domain: "theguardian.com/",
     article: "#article",
     content: "h1[itemprop=\"headline\"],.content__standfirst,div[itemprop=\"articleBody\"]"
