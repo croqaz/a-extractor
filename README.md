@@ -4,6 +4,7 @@
 
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
+  [![Build Status][build-image]][build-url]
   [![Standard Style Guide][style-image]][style-url]
 
 
@@ -147,5 +148,7 @@ The "fork-and-pull" Git workflow:
 [npm-url]: https://www.npmjs.com/package/a-extractor
 [downloads-image]: https://img.shields.io/npm/dm/a-extractor.svg
 [downloads-url]: https://npmjs.org/package/a-extractor
+[build-image]: https://travis-ci.org/croqaz/a-extractor.svg?branch=master
+[build-url]: https://travis-ci.org/croqaz/a-extractor
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com
