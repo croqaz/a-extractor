@@ -21,9 +21,10 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 83 domains available
+## 85 domains available
 
 * abcnews.go.com
+* aeon.co
 * agroinfo.ro
 * arenait.net
 * arstechnica.com
@@ -79,6 +80,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * nzherald.co.nz
 * observator.tv
 * pri.org
+* qz.com
 * romaniaa.ro
 * rt.com
 * rts.earth

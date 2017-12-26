@@ -12,6 +12,15 @@
     }
   },
   {
+    "domain": "aeon.co/",
+    "content": ".article__body .article__body__content p",
+    "date": {
+      "selector": ".article__body__content time.published",
+      "attr": "datetime"
+    },
+    "author": "header .article__body__author-name a"
+  },
+  {
     "domain": "agroinfo.ro/",
     "date": "#news_page .news_date",
     "content": "#news_body"
@@ -297,11 +306,26 @@
   },
   {
     "domain": "newyorker.com/",
-    "author": "main article header a[rel=\"author\"]",
-    "content": "main article"
+    "author": {
+      "selector": "main article header a[rel=\"author\"]",
+      "attr": "title"
+    },
+    "date": {
+      "selector": "main article header time",
+      "attr": "title"
+    },
+    "content": "#articleBody"
   },
   {
     "domain": "nytimes.com/\\d+/",
+    "author": {
+      "selector": "meta[name=\"author\"]",
+      "attr": "content"
+    },
+    "date": {
+      "selector": "meta[property=\"article:published\"]",
+      "attr": "content"
+    },
     "content": "#story .story-body"
   },
   {
@@ -322,6 +346,12 @@
     "domain": "pri.org/\\S+/\\S+",
     "content": "#main-content article.node.node-story",
     "author": "#main-content .story__meta"
+  },
+  {
+    "domain": "qz.com/\\d+/",
+    "author": "article .item-meta .author-name",
+    "date": "article .item-meta .timestamp",
+    "content": "article div[itemprop=\"articleBody\"]"
   },
   {
     "date": "#main .published",
