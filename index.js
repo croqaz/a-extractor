@@ -66,13 +66,15 @@ function selectOne ($, aex) {
   if (!aex.selector) {
     return ''
   }
+  let val
   if (aex.attr) {
-    return $(aex.selector).attr(aex.attr).trim()
+    val = $(aex.selector).attr(aex.attr)
   } else if (aex.data) {
-    return $(aex.selector).data(aex.data).trim()
+    val = $(aex.selector).data(aex.data)
   } else {
-    return $(aex.selector).text().trim()
+    val = $(aex.selector).text()
   }
+  return val ? val.trim() : ''
 }
 
 module.exports = {
