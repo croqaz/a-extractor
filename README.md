@@ -4,15 +4,15 @@
 
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
+  [![Build Status][build-image]][build-url]
   [![Standard Style Guide][style-image]][style-url]
 
 
-The database format is [JSON5](http://json5.org), a strict subset of Javascript, also available as a normal JSON.
+The main database is [JSON5](http://json5.org) format, a strict subset of Javascript, also available as a normal JSON, for convenience.
 
 The extraction expressions are [Cheerio](https://cheerio.js.org), similar with jQuery.
 
 The targeted information is:
-- **the title** of the article
 - **the author**
 - **the date** when the article was written
 - and of course, the article text, as clean as possible
@@ -21,9 +21,10 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 
 <div id="marker" markdown="1">
 
-## 78 domains available
+## 85 domains available
 
 * abcnews.go.com
+* aeon.co
 * agroinfo.ro
 * arenait.net
 * arstechnica.com
@@ -61,12 +62,14 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * infoalert.ro
 * irishmirror.ie
 * isgp-studies.com
+* jamesclear.com
 * jurnalul.ro
 * latimes.com
 * life.ro
 * mashable.com
 * merckmanuals.com
 * money.cnn.com
+* nautil.us
 * nbcnews.com
 * ncbi.nlm.nih.gov
 * neonnettles.com
@@ -77,6 +80,7 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * nzherald.co.nz
 * observator.tv
 * pri.org
+* qz.com
 * romaniaa.ro
 * rt.com
 * rts.earth
@@ -87,13 +91,16 @@ This project is designed to be used with [Clean-Mark](https://github.com/croqaz/
 * techcrunch.com
 * techradar.com
 * telegraph.co.uk
+* theatlantic.com
 * theguardian.com
 * theliberal.ie
 * thenextweb.com
+* theverge.com
 * thrillist.com
 * torrentfreak.com
 * usatoday.com
 * usnews.com
+* vox.com
 * wakingtimes.com
 * wall-street.ro
 * washingtonpost.com
@@ -135,14 +142,16 @@ The "fork-and-pull" Git workflow:
 
 -----
 
-### License
+## License
 
-[MIT](LICENSE) (c) 2017 Cristi Constantin
+[MIT](LICENSE) © Cristi Constantin.
 
 
 [npm-image]: https://img.shields.io/npm/v/a-extractor.svg
 [npm-url]: https://www.npmjs.com/package/a-extractor
 [downloads-image]: https://img.shields.io/npm/dm/a-extractor.svg
 [downloads-url]: https://npmjs.org/package/a-extractor
+[build-image]: https://travis-ci.org/croqaz/a-extractor.svg?branch=master
+[build-url]: https://travis-ci.org/croqaz/a-extractor
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com
