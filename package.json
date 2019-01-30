@@ -6,14 +6,14 @@
     "url": "https://github.com/croqaz/a-extractor/issues"
   },
   "dependencies": {
-    "json5": "1.x"
+    "json5": "2.x"
   },
   "description": "Article content extraction database",
   "devDependencies": {
     "cheerio": "latest",
     "minimize": "2.x",
-    "mocha": "4.x",
-    "node-fetch": "latest",
+    "mocha": "5.x",
+    "node-fetch": "2.x",
     "should": "13.x"
   },
   "engines": {
