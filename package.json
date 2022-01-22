@@ -13,7 +13,7 @@
     "cheerio": "latest",
     "minimize": "2.x",
     "mocha": "6.x",
-    "node-fetch": "2.x",
+    "node-fetch": "3.x",
     "should": "13.x"
   },
   "engines": {
